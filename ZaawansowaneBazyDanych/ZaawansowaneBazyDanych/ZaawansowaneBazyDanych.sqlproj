@@ -6,7 +6,7 @@
     <Name>ZaawansowaneBazyDanych</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{17c330e6-a459-4437-8847-d1f41082e6f1}</ProjectGuid>
+    <ProjectGuid>{a486d027-02bf-48ee-8b4a-be41ff1952d6}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -71,6 +71,7 @@
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="dbo\User Defined Types\" />
     <Folder Include="Security\" />
+    <Folder Include="SalesLT\XMLSchemaCollections\" />
     <Folder Include="SalesLT\Sequences\" />
   </ItemGroup>
   <ItemGroup>
@@ -79,7 +80,9 @@
     <Build Include="SalesLT\Tables\Address.sql" />
     <Build Include="221566\Tables\CustomerAddress.sql" />
     <Build Include="SalesLT\Tables\SalesOrderDetail.sql" />
+    <Build Include="221566\Tables\CustomerHistory.sql" />
     <Build Include="SalesLT\Tables\SalesOrderHeader.sql" />
+    <Build Include="SalesLT\Tables\ProductAttribute.sql" />
     <Build Include="SalesLT\Tables\ProductsCategories221566.sql" />
     <Build Include="221566\Tables\Customer.sql" />
     <Build Include="SalesLT\Tables\ProductModel.sql" />
@@ -105,6 +108,7 @@
     <Build Include="Security\221566.sql" />
     <Build Include="Security\SalesLT.sql" />
     <Build Include="Security\Student_566.sql" />
+    <Build Include="SalesLT\XMLSchemaCollections\ProductAttributeSchema.sql" />
     <Build Include="SalesLT\Sequences\SalesOrderNumber.sql" />
   </ItemGroup>
 </Project>
