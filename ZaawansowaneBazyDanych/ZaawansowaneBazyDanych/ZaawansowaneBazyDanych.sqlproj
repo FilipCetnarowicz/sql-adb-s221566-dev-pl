@@ -6,7 +6,7 @@
     <Name>ZaawansowaneBazyDanych</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{a486d027-02bf-48ee-8b4a-be41ff1952d6}</ProjectGuid>
+    <ProjectGuid>{9bcc517a-ca1d-4d54-84eb-8522e804b01e}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -66,7 +66,10 @@
     <Folder Include="221566\Tables\" />
     <Folder Include="Student_566\" />
     <Folder Include="Student_566\Tables\" />
+    <Folder Include="Student_6\" />
+    <Folder Include="Student_6\Views\" />
     <Folder Include="SalesLT\Views\" />
+    <Folder Include="Student_6\Functions\" />
     <Folder Include="dbo\Functions\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="dbo\User Defined Types\" />
@@ -91,11 +94,15 @@
     <Build Include="SalesLT\Tables\Product.sql" />
     <Build Include="SalesLT\Tables\ProductModelProductDescription.sql" />
     <Build Include="SalesLT\Tables\ProductCategory.sql" />
+    <Build Include="Student_6\Views\v_TheBestCustomers.sql" />
     <Build Include="SalesLT\Views\vProductModelCatalogDescription.sql" />
     <Build Include="SalesLT\Views\vProductAndDescription.sql" />
     <Build Include="SalesLT\Views\vGetAllCategories.sql" />
+    <Build Include="Student_6\Functions\ufn_ProductsJsonByCategory.sql" />
+    <Build Include="Student_6\Functions\ufn_IsPriceHigherThanCurrent.sql" />
     <Build Include="dbo\Functions\ufnGetSalesOrderStatusText.sql" />
     <Build Include="dbo\Functions\ufnGetAllCategories.sql" />
+    <Build Include="Student_6\Functions\ufn_ProductWithNewPriceOverview.sql" />
     <Build Include="dbo\Functions\ufnGetCustomerInformation.sql" />
     <Build Include="dbo\Stored Procedures\uspPrintError.sql" />
     <Build Include="dbo\Stored Procedures\uspLogError.sql" />
@@ -108,6 +115,7 @@
     <Build Include="Security\221566.sql" />
     <Build Include="Security\SalesLT.sql" />
     <Build Include="Security\Student_566.sql" />
+    <Build Include="Security\Student_6.sql" />
     <Build Include="SalesLT\XMLSchemaCollections\ProductAttributeSchema.sql" />
     <Build Include="SalesLT\Sequences\SalesOrderNumber.sql" />
   </ItemGroup>
