@@ -4,7 +4,7 @@
     [Title]        NVARCHAR (8)                                NULL,
     [FirstName]    [dbo].[Name]                                NOT NULL,
     [MiddleName]   [dbo].[Name]                                NULL,
-    [LastName]     [dbo].[Name]                                NOT NULL,
+    [LastName]     [F6_surname].[Surname]                      NOT NULL,
     [Suffix]       NVARCHAR (10)                               NULL,
     [CompanyName]  NVARCHAR (128)                              NULL,
     [SalesPerson]  NVARCHAR (256)                              NULL,

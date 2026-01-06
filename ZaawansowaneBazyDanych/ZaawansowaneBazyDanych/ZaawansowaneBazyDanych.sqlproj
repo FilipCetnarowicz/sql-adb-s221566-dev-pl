@@ -6,7 +6,7 @@
     <Name>ZaawansowaneBazyDanych</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{9bcc517a-ca1d-4d54-84eb-8522e804b01e}</ProjectGuid>
+    <ProjectGuid>{d881311f-24b4-4131-96aa-b5ee6342fae9}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -73,6 +73,8 @@
     <Folder Include="dbo\Functions\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="dbo\User Defined Types\" />
+    <Folder Include="F6_surname\" />
+    <Folder Include="F6_surname\User Defined Types\" />
     <Folder Include="Security\" />
     <Folder Include="SalesLT\XMLSchemaCollections\" />
     <Folder Include="SalesLT\Sequences\" />
@@ -112,7 +114,9 @@
     <Build Include="dbo\User Defined Types\NameStyle.sql" />
     <Build Include="dbo\User Defined Types\OrderNumber.sql" />
     <Build Include="dbo\User Defined Types\Phone.sql" />
+    <Build Include="F6_surname\User Defined Types\Surname.sql" />
     <Build Include="Security\221566.sql" />
+    <Build Include="Security\F6_surname.sql" />
     <Build Include="Security\SalesLT.sql" />
     <Build Include="Security\Student_566.sql" />
     <Build Include="Security\Student_6.sql" />

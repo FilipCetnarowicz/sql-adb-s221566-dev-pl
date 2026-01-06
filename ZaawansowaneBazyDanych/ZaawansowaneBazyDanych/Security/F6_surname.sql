@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [F6_surname]
+    AUTHORIZATION [dbo];
+
