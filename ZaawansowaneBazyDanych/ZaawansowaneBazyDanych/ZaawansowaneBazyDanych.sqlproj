@@ -6,7 +6,7 @@
     <Name>ZaawansowaneBazyDanych</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{d881311f-24b4-4131-96aa-b5ee6342fae9}</ProjectGuid>
+    <ProjectGuid>{e593c42d-4c99-4061-8698-045b66a1d630}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -95,7 +95,9 @@
     <Build Include="SalesLT\Tables\ProductDescription.sql" />
     <Build Include="SalesLT\Tables\Product.sql" />
     <Build Include="SalesLT\Tables\ProductModelProductDescription.sql" />
+    <Build Include="dbo\Tables\Product.sql" />
     <Build Include="SalesLT\Tables\ProductCategory.sql" />
+    <Build Include="dbo\Tables\ProductInventory.sql" />
     <Build Include="Student_6\Views\v_TheBestCustomers.sql" />
     <Build Include="SalesLT\Views\vProductModelCatalogDescription.sql" />
     <Build Include="SalesLT\Views\vProductAndDescription.sql" />
@@ -103,11 +105,16 @@
     <Build Include="Student_6\Functions\ufn_ProductsJsonByCategory.sql" />
     <Build Include="Student_6\Functions\ufn_IsPriceHigherThanCurrent.sql" />
     <Build Include="dbo\Functions\ufnGetSalesOrderStatusText.sql" />
+    <Build Include="dbo\Functions\ufn_IsAlreadyAdded.sql" />
     <Build Include="dbo\Functions\ufnGetAllCategories.sql" />
     <Build Include="Student_6\Functions\ufn_ProductWithNewPriceOverview.sql" />
     <Build Include="dbo\Functions\ufnGetCustomerInformation.sql" />
+    <Build Include="dbo\Stored Procedures\usp_AddNewProduct.sql" />
     <Build Include="dbo\Stored Procedures\uspPrintError.sql" />
     <Build Include="dbo\Stored Procedures\uspLogError.sql" />
+    <Build Include="dbo\Stored Procedures\usp_MinimalCustomerInsert.sql" />
+    <Build Include="dbo\Stored Procedures\usp_CustomerFilter.sql" />
+    <Build Include="dbo\Stored Procedures\usp_MinimalCustomerUpdate.sql" />
     <Build Include="dbo\User Defined Types\AccountNumber.sql" />
     <Build Include="dbo\User Defined Types\Flag.sql" />
     <Build Include="dbo\User Defined Types\Name.sql" />
